@@ -1,0 +1,286 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lato:wght@100;300;400;700;900&display=swap');
+/* font */
+
+/* variable */
+:root{
+      /* font family */
+      --mf-font-josefin: 'Josefin Sans', sans-serif;
+      --mf-font-lato: 'Lato', sans-serif;
+      /* font family */
+
+      /* colors */
+      --mf-fade-white: #F1F1F1;
+      --mf-main-pink: #FB2E86;
+      --mf-paragraph-1: #ACABC3;
+      --mf-paragraph-2: #B7BACB;
+      --mf-paragraph-3: #B8B8DC;
+      --mf-card-heading-blue: #151875;
+      --mf-heading-deep-blue: #1A0B5B;
+      --mf-main-black: #000;
+      --mf-white: #ffffff;
+      --mf-violet: #7E33E0;
+      --mf-blue: #0d6efd;
+      --mf-purple: #6f42c1;
+      --mf-red: #f83600;
+      --mf-orange: #df6812;
+      --mf-yellow: #ffc107;
+      --mf-green: #198754;
+      /* colors */
+
+      /* font weight */
+      --m-f-weight-regular: 400;
+      --m-f-weight-sem-bold: 600;
+      --m-f-weight-bold: 700;
+      --m-f-weight-ex-bold: 800;
+      /* font weight */
+}
+/* variable */
+
+/* single blog */
+.second_para{
+      margin-top: 36px !important;
+      margin-bottom: 43px !important;
+}
+
+.blog .video_heading{
+      color: #969CB4;
+      font-family: var(--mf-font-josefin);
+      font-size: 18px;
+      font-style: italic;
+      font-weight: 600;
+      line-height: normal;
+      padding: 35px 21px 18px 14px;
+      margin: 0;
+      background: #FAFAFB;
+      border-left: 2px solid var(--mf-main-pink);
+      margin-bottom: 43px;
+}
+
+/* video playback part here */
+
+.videos{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 45px;
+}
+
+.video_part{
+      position: relative;
+      width: 418px;
+      overflow: hidden;
+      border: 1px solid #ccc;
+}
+.video_part:hover .play-button{
+      opacity: 1;
+      visibility: visible;
+}
+.play-button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 59.839px;
+      height: 59.839px;
+      flex-shrink: 0;
+      background-color: var(--mf-fade-white);
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--mf-main-pink);
+      font-size: 24px;
+      opacity: 0;
+      visibility: hidden;
+      transition: .4s;
+      -webkit-transition: .4s;
+      -moz-transition: .4s;
+      -ms-transition: .4s;
+      -o-transition: .4s;
+}
+.first{
+      opacity: 1;
+      visibility: visible;
+}
+/* video playback part here */
+
+.product_part{
+      margin-top: 51px;
+      margin-bottom: 43px;
+      display: flex;
+      justify-content: space-between;
+}
+
+.product_part .image{
+      width: 210px;
+      height: 255px;
+      flex-shrink: 0;
+}
+.product_part h4{
+      color: #000;
+      font-family: var(--mf-font-josefin);
+      font-size: 19.681px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0.197px;
+      margin: 15px 23px;
+}
+.product_part .review{
+      padding-left: 12px;
+      display: flex;
+      align-items: center;
+}
+.product_part .review p{
+      color: #232A69 !important;
+      font-family: var(--mf-font-josefin);
+      font-size: 13.892px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0.139px;
+      margin: 0 !important;
+}
+.product_part .review span{
+      color: #FF38B0;
+      font-family: var(--mf-font-josefin);
+      font-size: 13.892px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-decoration: line-through;
+      margin-left: 9px;
+      margin-right: 17px;
+}
+.product_part .review .star{
+      display: flex;
+}
+.product_part .review .star img{
+     height: 12px;
+}
+/* ---- */
+
+.last_para{
+      margin-top: 30px !important;
+}
+/* ---- */
+.follow{
+      justify-content: center;
+      margin-top: 50px;
+}
+
+#blog_part .main_blog ul {
+      margin-bottom: 111px;
+}
+/* ---- */
+
+.comment{
+      width: 667.684px;
+      height: 137.164px;
+      flex-shrink: 0;
+      background: #FFF;
+      box-shadow: 0px 0px 17.004px 0px rgba(0, 0, 0, 0.25);
+      padding: 16px 13px 14px;
+      display: flex;
+      column-gap: 15px;
+      position: relative;
+      margin-bottom: 30px;
+}
+.comment span{
+      color: #A3A2B6;
+      font-family: var(--mf-font-lato);
+      font-size: 12.469px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      position: absolute;
+      top: 40px;
+      right: 352px;
+}
+.comment .image{
+      width: 103.157px;
+      height: 106.557px;
+      flex-shrink: 0;
+}
+.comment .text h6{
+      color: #363385;
+      font-family: var(--mf-font-josefin);
+      font-size: 18.137px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 0.181px;
+      margin-top: 23px;
+}
+.comment .text p{
+      color: #A3A2B6;
+      font-family: var(--mf-font-lato);
+      font-size: 12.469px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28.34px;
+      width: 507px;
+}
+/* ------- */
+.col-lg-9 form{
+      margin-top: 135px;
+      width: 717px;
+}
+form .top{
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 45px;
+}
+form .top input{
+      width: 341.642px;
+      height: 42.705px;
+      flex-shrink: 0;
+      border: 1.124px solid#8A8FB9;
+      padding: 11px 28px 13px;
+}
+form .top input::placeholder{
+      color: #8A8FB9;
+      font-family: var(--mf-font-lato);
+      font-size: 15.734px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0.157px;
+}
+form .comment_here{
+      width: 717px;
+      height: 205.66px;
+      border: 1.124px solid#8A8FB9;
+      background: transparent;
+      padding: 21px 40px;
+}
+form .comment_here::placeholder{
+      color: #8A8FB9;
+      font-family: var(--mf-font-lato);
+      font-size: 15.734px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0.157px;
+}
+form .checkbo input{
+     margin-left: 8px;
+     margin-top: 22px;
+}
+form .checkbo label{
+      color: #8A91AB;
+      font-family: var(--mf-font-lato);
+      font-size: 13.486px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 0.27px;
+}
+form .button a{
+      font-size: 18px;
+      padding: 16px 272px;
+      margin-left: 8px;
+      margin-top: 46px;
+}

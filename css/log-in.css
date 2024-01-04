@@ -1,0 +1,123 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lato:wght@100;300;400;700;900&display=swap');
+/* font */
+
+/* variable */
+:root{
+      /* font family */
+      --mf-font-josefin: 'Josefin Sans', sans-serif;
+      --mf-font-lato: 'Lato', sans-serif;
+      /* font family */
+
+      /* colors */
+      --mf-fade-white: #F1F1F1;
+      --mf-main-pink: #FB2E86;
+      --mf-paragraph-1: #ACABC3;
+      --mf-paragraph-2: #B7BACB;
+      --mf-paragraph-3: #B8B8DC;
+      --mf-card-heading-blue: #151875;
+      --mf-heading-deep-blue: #1A0B5B;
+      --mf-main-black: #000;
+      --mf-white: #ffffff;
+      --mf-violet: #7E33E0;
+      --mf-blue: #0d6efd;
+      --mf-purple: #6f42c1;
+      --mf-red: #f83600;
+      --mf-orange: #df6812;
+      --mf-yellow: #ffc107;
+      --mf-green: #198754;
+      /* colors */
+
+      /* font weight */
+      --m-f-weight-regular: 400;
+      --m-f-weight-sem-bold: 600;
+      --m-f-weight-bold: 700;
+      --m-f-weight-ex-bold: 800;
+      /* font weight */
+}
+/* variable */
+
+
+
+/* log in part */
+#log{
+      padding-top: 120px;
+}
+
+#log .log_in{
+      width: 544px;
+      height: 474px;
+      flex-shrink: 0;
+      background: #FFF;
+      box-shadow: 0px 0px 25px 10px #F8F8FB;
+      padding: 50px 56px;
+      margin: 0 auto;
+      margin-bottom: 25px;
+}
+#log .log_in h2{
+      color: var(--mf-main-black);
+      font-family: var(--mf-font-josefin);
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-align: center;
+}
+#log .log_in p{
+      color: #9096B2;
+      font-family: var(--mf-font-lato);
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-align: center;
+      margin-bottom: 27px;
+}
+#log .log_in input{
+      width: 100%;
+      border-radius: 2px;
+      border: 1px solid #C2C5E1;
+      padding: 15px 13px 18px;
+      margin: 13px 0 10px;
+}
+#log .log_in input::placeholder{
+      color: #9096B2;
+      font-family: var(--mf-font-lato);
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+}
+#log .log_in a{
+      color: #9096B2;
+      font-family: var(--mf-font-lato);
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-bottom: 23px;
+}
+#log .log_in .button a{
+      color: var(--mf-white);
+      font-family: var(--mf-font-lato);
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      padding: 13px 190px 14px 191px;
+      letter-spacing: 0;
+}
+#log .log_in span{
+      color: #9096B2;
+      font-family: var(--mf-font-lato);
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      display: flex;
+      justify-content: center;
+      margin-top: 5px;
+      cursor: pointer;
+}
+
+/* log in part */

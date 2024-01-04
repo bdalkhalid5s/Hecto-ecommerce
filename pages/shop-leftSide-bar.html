@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Shop Left Sidebar</title>
+
+      
+       <!-- fontawesome icon link -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+      <!-- fontawesome icon link -->
+      
+      <!-- bootstrap -->
+      <link rel="stylesheet" href="../css/bootstrap.min.css">
+      <!-- bootstrap -->
+      
+      <!-- main custom css -->
+      <link rel="stylesheet" href="../css/style.css">
+      <!-- main custom css -->
+
+      <!-- shop grid css custom -->
+      <link rel="stylesheet" href="../css/shop-grid.css">
+      <!-- shop grid css custom -->
+
+      <!-- shop left side bar css custom -->
+      <link rel="stylesheet" href="../css/shop-leftSide-bar.css">
+      <!-- shop left side bar css custom -->
+</head>
+<body>
+      <!-- heading bar -->
+      <header id="heading_bar">
+            <div class="container">
+                  <div class="info">
+                        <!-- contacts -->
+                        <a href="#">
+                              <i class="fa-regular fa-envelope"></i>
+                              mhhasanul@gmail.com
+                        </a>
+                        <a href="#">
+                              <i class="fa-solid fa-phone-volume"></i>
+                              (12345)67890
+                        </a>
+                        <!-- contacts -->
+                  </div>
+                  <div class="details">
+                        <!-- dropdown -->
+                        <div class="dropdown">
+                              <!-- language -->
+                              <div class="btn-group">
+                                    <button class="btn" type="button" >
+                                      English
+                                    </button>
+                                    <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                                          <i class="fa-solid fa-chevron-down"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                      <li>English</li>
+                                      <li>Bangla</li>
+                                      <li>Japanese</li>
+                                      <li>Chinese</li>
+                                      <li>Italian</li>
+                                    </ul>
+                                  </div>
+                                  <!-- language -->
+                                  <!-- Money -->
+                                  <div class="btn-group">
+                                    <button class="btn" type="button">
+                                      USD
+                                    </button>
+                                    <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                                          <i class="fa-solid fa-chevron-down"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                      <li>USD</li>
+                                      <li>TK</li>
+                                      <li>Yen</li>
+                                      <li>Qian</li>
+                                      <li>Soldi</li>
+                                    </ul>
+                              </div>
+                              <!-- Money -->
+                        </div>
+                        <!-- dropdown -->
+                        <a href="#">
+                              Login
+                              <i class="fa-regular fa-user"></i>
+                        </a>
+                        <a href="#">
+                              Wishlist
+                              <i class="fa-regular fa-heart"></i>
+                        </a>
+                        <a href="#">
+                              <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                  </div>
+            </div>
+      </header>
+      <!-- heading bar -->
+     
+      <!-- navbar --> 
+      <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid container">
+              <a class="navbar-brand" href="#">
+                  <img src="../images/logo/Hekto.png" alt="Hekto.png">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="../index.html" role="button">
+                      Home
+                      <i class="fa-solid fa-chevron-down active" id="btn"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Pages
+                      <i class="fa-solid fa-chevron-down" id="btn"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="shop-grid.html">Shop Grid Default</a></li>
+                      <li><a class="dropdown-item" href="shop-list.html">Shop List</a></li>
+                      <li><a class="dropdown-item" href="shop-leftSide-bar.html">Shop Left Sidebar</a></li>
+                      <li><a class="dropdown-item" href="product-details.html">Product Details</a></li>
+                      
+                      <li class="cart"><a class="dropdown-item" href="shopping-cart.html">Shopping cart</a>
+                        <ul class="dropdown-menu cart_info">
+                          <li>
+                            <a class="dropdown-item" href="cart-information.html">Registration/Log In</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li><a class="dropdown-item" href="order-complete.html">Order Completed</a></li>
+                      <li><a class="dropdown-item" href="log-in.html">My Account</a></li>
+                      <li><a class="dropdown-item" href="blog.html">Blog Page</a></li>
+                      <li><a class="dropdown-item" href="single-blog.html">Single Blog</a></li>
+                      <li><a class="dropdown-item" href="about-us.html">About Us</a></li>
+                      <li><a class="dropdown-item" href="contact-us.html">Contact Us</a></li>
+                      <li><a class="dropdown-item" href="not-found.html">404 Not Found</a></li>
+                      <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+                      
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="product-details.html" role="button">
+                      Products
+                      <i class="fa-solid fa-chevron-down" id="btn"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Blog
+                      <i class="fa-solid fa-chevron-down" id="btn"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="blog.html">Blog Page</a></li>
+                      <li><a class="dropdown-item" href="single-blog.html">Single Blog</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Shop
+                      <i class="fa-solid fa-chevron-down" id="btn"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="shop-grid.html#">Shop Grid Default</a></li>
+                      <li><a class="dropdown-item" href="shop-list.html">Shop List</a></li>
+                      <li><a class="dropdown-item" href="shop-leftSide-bar.html">Shop Left Sidebar</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contact
+                      <i class="fa-solid fa-chevron-down" id="btn"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="about-us.html">About Us</a></li>
+                      <li><a class="dropdown-item" href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+                  <button class="btn" type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+      </nav>
+      <!-- navbar -->
+      
+       <!-- page banner part -->
+       <section id="page_banner_part">
+            <div class="container">
+                  <h1 class="banner_heading">Shop Left Sidebar</h1>
+                  <div class="pages">
+                        <a href="#">Home</a>
+                        <a href="#">. Pages</a>
+                        <a class="active" href="#">. Shop Left Sidebar</a>
+                  </div>
+            </div>
+      </section>
+      <!-- page banner part -->
+      <!-- acceories & items -->
+      <section id="acceories_item">
+          <div class="container">
+                <div class="text">
+                      <h2>Ecommerce Acceories & Fashion item </h2>
+                      <p>About 9,620 results (0.62 seconds)</p>
+                </div>
+                <!-- form -->
+                <div class="optimize">
+                      <div class="page">
+                            <form class="row g-3">
+                                  <!-- box -->
+                                  <div class="col-auto">
+                                        <!-- page -->
+                                    <label class="label_name">Per Page:</label>
+                                    <input class="input" id="per_page" type="number" placeholder="">
+                                  </div>
+                                  <!-- page -->
+                                  <!-- sorting -->
+                                  <div class="col-auto">
+                                    <label class="label_name">Sort By:</label>
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Best Match
+                                        <i class="fa-solid fa-chevron-down" id="btn"></i>
+                                      </a>
+                                      <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                      </ul>
+                                  </div>
+                                  <!-- sorting -->
+                                  <div class="col-auto view">
+                                    <label class="label_name">View:</label>
+                                    <i class="fa-solid fa-grip"></i>
+                                    <i class="fa-solid fa-list"></i>
+                                    <input class="input" id="view_input" type="text" placeholder="">
+                                  </div>
+                             </form>
+                      </div>
+                </div>
+                <!-- form -->
+          </div>
+      </section>
+      <!-- acceories & items -->
+
+      
+      <!-- shop list part -->
+      <section id="shop_left_sidebar_part">
+            <div class="container">
+                  <div class="row">
+                        <div class="col-lg-3">
+                              <div class="information">
+                                    <!-- brand -->
+                                    <div class="product_brand">
+                                          <h2 class="heading">Product Brand</h2>
+                                          <div class="box">
+                                                <!-- check box -->
+                                                <div class="custom-checkbox">
+                                                      <input type="checkbox" id="myCheckbox" />
+                                                      <label for="myCheckbox" id="text">Coaster Furniture</label>
+                                                </div>
+                                                <!-- check box -->
+                                                <!-- check box -->
+                                                <div class="custom-checkbox">
+                                                      <input type="checkbox" id="myCheckbox" />
+                                                      <label for="myCheckbox" id="text">Fusion Dot High Fashion</label>
+                                                </div>
+                                                <!-- check box -->
+                                                <!-- check box -->
+                                                <div class="custom-checkbox">
+                                                      <input type="checkbox" id="myCheckbox" />
+                                                      <label for="myCheckbox" id="text">Unique Furnitture Restor</label>
+                                                </div>
+                                                <!-- check box -->
+                                                <!-- check box -->
+                                                <div class="custom-checkbox">
+                                                      <input type="checkbox" id="myCheckbox" />
+                                                      <label for="myCheckbox" id="text">Dream Furnitture Flipping</label>
+                                                </div>
+                                                <!-- check box -->
+                                                <!-- check box -->
+                                                <div class="custom-checkbox">
+                                                      <input type="checkbox" id="myCheckbox" />
+                                                      <label for="myCheckbox" id="text">Young Repurposed</label>
+                                                </div>
+                                                <!-- check box -->
+                                                <!-- check box -->
+                                                <div class="custom-checkbox">
+                                                      <input type="checkbox" id="myCheckbox" />
+                                                      <label for="myCheckbox" id="text">Green DIY furniture</label>
+                                                </div>
+                                                <!-- check box -->
+                                          </div>
+                                    </div>
+                                    <!-- brand -->
+                                    <!-- discount -->
+                                    <div class="discount_part">
+                                          <h2 class="heading">Discount Offer</h2>
+                                          <div class="box">
+                                                <!-- check box -->
+                                                <div class="custom-checkbox">
+                                                      <input type="checkbox" id="myCheckbox" />
+                                                      <label for="myCheckbox" id="text">20% Cashback</label>
+                                                </div>
+                                                <!-- check box -->
+                                                <!-- check box -->
+                                                <div class="custom-checkbox">
+                                                      <input type="checkbox" id="myCheckbox" />
+                                                      <label for="myCheckbox" id="text">5% Cashback Offer</label>
+                                                </div>
+                                                <!-- check box -->
+                                                <!-- check box -->
+                                                <div class="custom-checkbox">
+                                                      <input type="checkbox" id="myCheckbox" />
+                                                      <label for="myCheckbox" id="text">25% Discount Offer</label>
+                                                </div>
+                                                <!-- check box -->
+                                          </div>
+                                    </div>
+                                    <!-- discount -->
+                                    <!-- ratings -->
+                                    <div class="rating_part">
+                                          <h2 class="heading">Rating Item</h2>
+                                          <div class="box">
+                                                <!-- check box -->
+                                                <div class="custom-checkbox">
+                                                      <input type="checkbox" id="myCheckbox" />
+                                                      <label for="myCheckbox" id="rating">
+                                                            <div class="star">
+                                                                  <img src="../images/pages/star-filled-yellow.png" alt="star-filled-yellow.png">
+                                                                  <img src="../images/pages/star-filled-yellow.png" alt="star-filled-yellow.png">
+                                                                  <img src="../images/pages/star-filled-yellow.png" alt="star-filled-yellow.png">
+                                                                  <img src="../images/pages/star-filled-yellow.png" alt="star-filled-yellow.png">
+                                                                  <img src="../images/pages/star-default-blank.png" alt="star-default-blank.png">
+                                                            </div>
+                                                            <p class="num">(2341)</p>
+                                                      </label>
+                                                </div>
+                                                <!-- check box -->
+                                                <!-- check box -->
+                                                <div class="custom-checkbox">
+                                                      <input type="checkbox" id="myCheckbox" />
+                                                      <label for="myCheckbox" id="rating">
+                                                            <div class="star">
+                                                                  <img src="../images/pages/star-filled-yellow.png" alt="star-filled-yellow.png">
+                                                                  <img src="../images/pages/star-filled-yellow.png" alt="star-filled-yellow.png">
+                                                                  <img src="../images/pages/star-filled-yellow.png" alt="star-filled-yellow.png">
+                                                                  <img src="../images/pages/star-default-blank.png" alt="star-default-blank.png">
+                                                                  <img src="../images/pages/star-default-blank.png" alt="star-default-blank.png">
+                                                            </div>
+                                                            <p class="num">(1726)</p>
+                                                      </label>
+                                                </div>
+                                                <!-- check box -->
+                                                <!-- check box -->
+                                                <div class="custom-checkbox">
+                                                      <input type="checkbox" id="myCheckbox" />
+                                                      <label for="myCheckbox" id="rating">
+                                                            <div class="star">
+                                                                  <img src="../images/pages/star-filled-yellow.png" alt="star-filled-yellow.png">
+                                                                  <img src="../images/pages/star-filled-yellow.png" alt="star-filled-yellow.png">
+                                                                  <img src="../images/pages/star-default-blank.png" alt="star-default-blank.png">
+                                                                  <img src="../images/pages/star-default-blank.png" alt="star-default-blank.png">
+                                                                  <img src="../images/pages/star-default-blank.png" alt="star-default-blank.png">
+                                                            </div>
+                                                            <p class="num">(258)</p>
+                                                      </label>
+                                                </div>
+                                                <!-- check box -->
+                                                <!-- check box -->
+                                                <div class="custom-checkbox">
+                                                      <input type="checkbox" id="myCheckbox" />
+                                                      <label for="myCheckbox" id="rating">
+                                                            <div class="star">
+                                                                  <img src="../images/pages/star-filled-yellow.png" alt="star-filled-yellow.png">
+                                                                  <img src="../images/pages/star-filled-yellow.png" alt="star-filled-yellow.png">
+                                                                  <img src="../images/pages/star-default-blank.png" alt="star-default-blank.png">
+                                                                  <img src="../images/pages/star-default-blank.png" alt="star-default-blank.png">
+                                                                  <img src="../images/pages/star-default-blank.png" alt="star-default-blank.png">
+                                                            </div>
+                                                            <p class="num">(25)</p>
+                                                      </label>
+                                                </div>
+                                                <!-- check box -->
+                                                
+                                          </div>
+                                    </div>
+                                    <!-- ratings -->
+                                    <!-- categories -->
+                                    <div class="discount_part">
+                                          <h2 class="heading">Categories</h2>
+                                          <div class="box">
+                                                <!-- check box -->
+                                                <div class="custom-checkbox">
+                                                      <input type="checkbox" id="myCheckbox" />
+                                                      <label for="myCheckbox" id="text">Prestashop</label>
+                                                </div>
+                                                <!-- check box -->
+                                                <!-- check box -->
+                                                <div class="custom-checkbox">
+                                                      <input type="checkbox" id="myCheckbox" />
+                                                      <label for="myCheckbox" id="text">Magento</label>
+                                                </div>
+                                                <!-- check box -->
+                                                <!-- check box -->
+                                                <div class="custom-checkbox">
+                                                      <input type="checkbox" id="myCheckbox" />
+                                                      <label for="myCheckbox" id="text">Bigcommerce</label>
+                                                </div>
+                                                <!-- check box -->
+                                                <!-- check box -->
+                                                <div class="custom-checkbox">
+                                                      <input type="checkbox" id="myCheckbox" />
+                                                      <label for="myCheckbox" id="text">osCommerce</label>
+                                                </div>
+                                                <!-- check box -->
+                                                <!-- check box -->
+                                                <div class="custom-checkbox">
+                                                      <input type="checkbox" id="myCheckbox" />
+                                                      <label for="myCheckbox" id="text">3dcart</label>
+                                                </div>
+                                                <!-- check box -->
+                                                <!-- check box -->
+                                                <div class="custom-checkbox">
+                                                      <input type="checkbox" id="myCheckbox" />
+                                                      <label for="myCheckbox" id="text">Bags</label>
+                                                </div>
+                                                <div class="custom-checkbox">
+                                                      <input type="checkbox" id="myCheckbox" style="opacity: 0;"/>
+                                                      <label for="myCheckbox" id="text">Accessories</label>
+                                                </div>
+                                                <div class="custom-checkbox">
+                                                      <input type="checkbox" id="myCheckbox" style="opacity: 0;"/>
+                                                      <label for="myCheckbox" id="text">Jewellery</label>
+                                                </div>
+                                                <!-- check box -->
+                                                <!-- check box -->
+                                                <div class="custom-checkbox">
+                                                      <input type="checkbox" id="myCheckbox" />
+                                                      <label for="myCheckbox" id="text">Watches</label>
+                                                </div>
+                                                <!-- check box -->
+                                          </div>
+                                    </div>
+                                    <!-- categories -->
+                                    <!-- price filter -->
+                                     <div class="discount_part price_filter">
+                                          <h2 class="heading">Price Filter</h2>
+                                          <div class="box">
+                                                <!-- check box -->
+                                                <div class="custom-checkbox">
+                                                      <input type="checkbox" id="myCheckbox" />
+                                                      <label for="myCheckbox" id="text">$0.00 - $150.00</label>
+                                                </div>
+                                                <!-- check box -->
+                                                <!-- check box -->
+                                                <div class="custom-checkbox">
+                                                      <input type="checkbox" id="myCheckbox" />
+                                                      <label for="myCheckbox" id="text">$150.00 - $350.00</label>
+                                                </div>
+                                                <!-- check box -->
+                                                <!-- check box -->
+                                                <div class="custom-checkbox">
+                                                      <input type="checkbox" id="myCheckbox" />
+                                                      <label for="myCheckbox" id="text">$150.00 - $504.00</label>
+                                                </div>
+                                                <!-- check box -->
+                                                <!-- check box -->
+                                                <div class="custom-checkbox">
+                                                      <input type="checkbox" id="myCheckbox" />
+                                                      <label for="myCheckbox" id="text">$450.00 +</label>
+                                                </div>
+                                                <!-- check box -->
+                                                 <!-- search box -->
+                                                 <div class="input-group mb-3">
+                                                      <input class="search_input" type="text" class="form-control" placeholder="$10.00 - 20000$">
+                                                      <button class="btn button_glass" type="button">
+                                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                                      </button>
+                                                </div>
+                                                <!-- search box -->
+                                          </div>
+                                    </div>
+                                    <!-- price filter -->
+                                    <!-- discount -->
+                                    <div class="filter_part">
+                                          <h2 class="heading">Filter By Color</h2>
+                                          <div class="colors">
+                                                <div class="row">
+                                                      <div class="col-lg-4">
+                                                            <div class="color">
+                                                                  <div class="blue"></div>
+                                                                  <p>Blue</p>
+                                                            </div>
+                                                            <div class="color">
+                                                                  <div class="green"></div>
+                                                                  <p>Green</p>
+                                                            </div>
+                                                      </div>
+                                                      <div class="col-lg-4">
+                                                            <div class="color">
+                                                                  <div class="orange"></div>
+                                                                  <p>Orange</p>
+                                                            </div>
+                                                            <div class="color">
+                                                                  <div class="purple"></div>
+                                                                  <p>Purple</p>
+                                                            </div>
+                                                      </div>
+                                                      <div class="col-lg-4">
+                                                            <div class="color">
+                                                                  <div class="brown"></div>
+                                                                  <p>Brown</p>
+                                                            </div>
+                                                            <div class="color">
+                                                                  <div class="sky"></div>
+                                                                  <p>Sky</p>
+                                                            </div>
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </div>
+                                    <!-- discount -->
+                              </div>
+                        </div>
+                        <!-- product details -->
+                        <div class="col-lg-9">
+                              <!-- shop list -->
+                              <div class="shop_list">
+                                    <!-- shop -->
+                                    <div class="shop">
+                                          <!-- image -->
+                                          <div class="image">
+                                                <img src="../images/pages/shop-left-side-bar/shop-left-side-1.png" alt="shop-left-side-1.png">
+                                          </div>
+                                          <!-- image -->
+                                          <!-- info -->
+                                          <div class="info">
+                                                <!-- heading -->
+                                               <h2 class="heading">Accumsan tincidunt</h2>
+                                               <!-- heading -->
+                                               <div class="price">
+                                                <p>$26.00</p>
+                                                <span>$52.00</span>
+                                                <img class="stars" src="../images/pages/shop-list/ratting-star.png" alt="ratting-star.png">
+                                               </div>
+                                               <!-- pricing & review -->
+                                               <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.</p>
+                                               <!-- paragraph -->
+                                               <!-- icons -->
+                                               <div class="icon">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                                <i class="fa-regular fa-heart"></i>
+                                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                              </div>
+                                              <!-- icons -->
+                                          </div>
+                                          <!-- info -->
+                                          <img class="dots_color" src="../images/pages/shop-list/3-color-dot.png" alt="3-color-dot.png">
+                                    </div>
+                                    <!-- shop -->
+                                    <!-- shop -->
+                                    <div class="shop">
+                                          <!-- image -->
+                                          <div class="image">
+                                                <img src="../images/pages/shop-left-side-bar/shop-left-side-2.png" alt="shop-left-side-2.png">
+                                          </div>
+                                          <!-- image -->
+                                          <!-- info -->
+                                          <div class="info">
+                                                <!-- heading -->
+                                               <h2 class="heading">Sodales sit</h2>
+                                               <!-- heading -->
+                                               <div class="price">
+                                                <p>$26.00</p>
+                                                <span>$52.00</span>
+                                                <img class="stars" src="../images/pages/shop-list/ratting-star.png" alt="ratting-star.png">
+                                               </div>
+                                               <!-- pricing & review -->
+                                               <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.</p>
+                                               <!-- paragraph -->
+                                               <!-- icons -->
+                                               <div class="icon">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                                <i class="fa-regular fa-heart"></i>
+                                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                              </div>
+                                              <!-- icons -->
+                                          </div>
+                                          <!-- info -->
+                                          <img class="dots_color" src="../images/pages/shop-list/3-color-dot.png" alt="3-color-dot.png">
+                                    </div>
+                                    <!-- shop -->
+                                    <!-- shop -->
+                                    <div class="shop">
+                                          <!-- image -->
+                                          <div class="image">
+                                                <img src="../images/pages/shop-left-side-bar/shop-left-side-3.png" alt="shop-left-side-3.png">
+                                          </div>
+                                          <!-- image -->
+                                          <!-- info -->
+                                          <div class="info">
+                                                <!-- heading -->
+                                               <h2 class="heading">Nibh varius</h2>
+                                               <!-- heading -->
+                                               <div class="price">
+                                                <p>$26.00</p>
+                                                <span>$52.00</span>
+                                                <img class="stars" src="../images/pages/shop-list/ratting-star.png" alt="ratting-star.png">
+                                               </div>
+                                               <!-- pricing & review -->
+                                               <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.</p>
+                                               <!-- paragraph -->
+                                               <!-- icons -->
+                                               <div class="icon">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                                <i class="fa-regular fa-heart"></i>
+                                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                              </div>
+                                              <!-- icons -->
+                                          </div>
+                                          <!-- info -->
+                                          <img class="dots_color" src="../images/pages/shop-list/3-color-dot.png" alt="3-color-dot.png">
+                                    </div>
+                                    <!-- shop -->
+                                    <!-- shop -->
+                                    <div class="shop">
+                                          <!-- image -->
+                                          <div class="image">
+                                                <img src="../images/pages/shop-left-side-bar/shop-left-side-4.png" alt="shop-left-side-4.png">
+                                          </div>
+                                          <!-- image -->
+                                          <!-- info -->
+                                          <div class="info">
+                                                <!-- heading -->
+                                               <h2 class="heading">Mauris quis</h2>
+                                               <!-- heading -->
+                                               <div class="price">
+                                                <p>$26.00</p>
+                                                <span>$52.00</span>
+                                                <img class="stars" src="../images/pages/shop-list/ratting-star.png" alt="ratting-star.png">
+                                               </div>
+                                               <!-- pricing & review -->
+                                               <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.</p>
+                                               <!-- paragraph -->
+                                               <!-- icons -->
+                                               <div class="icon">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                                <i class="fa-regular fa-heart"></i>
+                                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                              </div>
+                                              <!-- icons -->
+                                          </div>
+                                          <!-- info -->
+                                          <img class="dots_color" src="../images/pages/shop-list/3-color-dot.png" alt="3-color-dot.png">
+                                    </div>
+                                    <!-- shop -->
+                                    <!-- shop -->
+                                    <div class="shop">
+                                          <!-- image -->
+                                          <div class="image">
+                                                <img src="../images/pages/shop-left-side-bar/shop-left-side-5.png" alt="shop-left-side-5.png">
+                                          </div>
+                                          <!-- image -->
+                                          <!-- info -->
+                                          <div class="info">
+                                                <!-- heading -->
+                                               <h2 class="heading">Morbi sagittis</h2>
+                                               <!-- heading -->
+                                               <div class="price">
+                                                <p>$26.00</p>
+                                                <span>$52.00</span>
+                                                <img class="stars" src="../images/pages/shop-list/ratting-star.png" alt="ratting-star.png">
+                                               </div>
+                                               <!-- pricing & review -->
+                                               <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.</p>
+                                               <!-- paragraph -->
+                                               <!-- icons -->
+                                               <div class="icon">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                                <i class="fa-regular fa-heart"></i>
+                                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                              </div>
+                                              <!-- icons -->
+                                          </div>
+                                          <!-- info -->
+                                          <img class="dots_color" src="../images/pages/shop-list/3-color-dot.png" alt="3-color-dot.png">
+                                    </div>
+                                    <!-- shop -->
+                                    <!-- shop -->
+                                    <div class="shop">
+                                          <!-- image -->
+                                          <div class="image">
+                                                <img src="../images/pages/shop-left-side-bar/shop-left-side-6.png" alt="shop-left-side-6.png">
+                                          </div>
+                                          <!-- image -->
+                                          <!-- info -->
+                                          <div class="info">
+                                                <!-- heading -->
+                                               <h2 class="heading">Ultricies venenatis</h2>
+                                               <!-- heading -->
+                                               <div class="price">
+                                                <p>$26.00</p>
+                                                <span>$52.00</span>
+                                                <img class="stars" src="../images/pages/shop-list/ratting-star.png" alt="ratting-star.png">
+                                               </div>
+                                               <!-- pricing & review -->
+                                               <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.</p>
+                                               <!-- paragraph -->
+                                               <!-- icons -->
+                                               <div class="icon">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                                <i class="fa-regular fa-heart"></i>
+                                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                              </div>
+                                              <!-- icons -->
+                                          </div>
+                                          <!-- info -->
+                                          <img class="dots_color" src="../images/pages/shop-list/3-color-dot.png" alt="3-color-dot.png">
+                                    </div>
+                                    <!-- shop -->
+                                    <!-- shop -->
+                                    <div class="shop">
+                                          <!-- image -->
+                                          <div class="image">
+                                                <img src="../images/pages/shop-left-side-bar/shop-left-side-7.png" alt="shop-left-side-7.png">
+                                          </div>
+                                          <!-- image -->
+                                          <!-- info -->
+                                          <div class="info">
+                                                <!-- heading -->
+                                               <h2 class="heading">Scelerisque dignissim</h2>
+                                               <!-- heading -->
+                                               <div class="price">
+                                                <p>$26.00</p>
+                                                <span>$52.00</span>
+                                                <img class="stars" src="../images/pages/shop-list/ratting-star.png" alt="ratting-star.png">
+                                               </div>
+                                               <!-- pricing & review -->
+                                               <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.</p>
+                                               <!-- paragraph -->
+                                               <!-- icons -->
+                                               <div class="icon">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                                <i class="fa-regular fa-heart"></i>
+                                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                              </div>
+                                              <!-- icons -->
+                                          </div>
+                                          <!-- info -->
+                                          <img class="dots_color" src="../images/pages/shop-list/3-color-dot.png" alt="3-color-dot.png">
+                                    </div>
+                                    <!-- shop -->
+                              </div>
+                              <!-- shop list -->
+                        </div>
+                        <!-- product details -->
+                  </div>
+            </div>
+      </section>
+      <!-- shop list part -->
+
+
+      <!-- top brand -->
+      <div class="brand">
+            <img src="../images/leatest-blog/image 1174.png" alt="leatest-blog/image 1174.png">
+      </div>
+      <!-- top brand -->
+
+      <!-- footer part -->
+      <footer id="footer_part">
+            <div class="container">
+              <!-- text -->
+              <div class="row">
+                <div class="col-lg-5 left">
+                  <div class="image">
+                    <img src="../images/logo/Hekto.png" alt="/Hekto.png">
+                  </div>
+                  <!-- form -->
+                  <form class="d-flex form" role="search">
+                    <input class="form-control me-2 input" type="email" placeholder="Enter Email Address" aria-label="Search">
+                    <button class="button" type="submit">
+                      <a href="#">Sign Up</a>
+                    </button>
+                  </form>
+                  <!-- form -->
+                  <p>Contact Info</p>
+                  <p>17 Princess Road, London, Greater London NW1 8JR, UK</p>
+                </div>
+                <div class="col-lg-7 right">
+                  <!-- ingormation -->
+                  <div class="category">
+                    <h3>Catagories</h3>
+                    <a href="#">Laptops & Computers</a>
+                    <a href="#">Cameras & Photography</a>
+                    <a href="#">Smart Phones & Tablets</a>
+                    <a href="#">Video Games & Consoles</a>
+                    <a href="#">Waterproof Headphones</a>
+                  </div>
+                  <!-- ingormation -->
+                  <!-- ingormation -->
+                  <div class="category">
+                    <h3>Customer Care</h3>
+                    <a href="#">My Account</a>
+                    <a href="#">Discount</a>
+                    <a href="#">Returns</a>
+                    <a href="#">Orders History</a>
+                    <a href="#">Order Tracking</a>
+                  </div>
+                  <!-- ingormation -->
+                  <!-- ingormation -->
+                  <div class="category">
+                    <h3>Pages</h3>
+                    <a href="#">Blog</a>
+                    <a href="#">Browse the Shop</a>
+                    <a href="#">Category</a>
+                    <a href="#">Pre-Built Pages</a>
+                    <a href="#">Visual Composer Elements</a>
+                    <a href="#">WooCommerce Pages</a>
+                  </div>
+                  <!-- ingormation -->
+                </div>
+              </div>
+              <!-- text -->
+            </div>
+            <!-- copy write -->
+            <div class="cp">
+              <div class="container">
+                <a href="#">©Webecy - All Rights Reserved</a>
+                <div class="icon">
+                  <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- copy write -->
+      </footer>
+      <!-- footer part -->
+
+
+
+
+      <!-- BootStrap JS -->
+      <script src="../js/bootstrap.bundle.min.js"></script>
+      <!-- BootStrap JS -->
+
+      <!-- Custom JavaScript -->
+      <script src="../js/script.js"></script>
+      <!-- Custom JavaScript -->
+</body>
+</html>

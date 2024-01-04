@@ -1,0 +1,1914 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Hekto-ECommerce</title>
+
+      <!-- slick slider link -->
+      <link rel="stylesheet" href="./css/slick.css">
+      <!-- slick slider link -->
+
+      <!-- fontawesome icon link -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+      <!-- fontawesome icon link -->
+
+      <!-- bootstrap -->
+      <link rel="stylesheet" href="./css/bootstrap.min.css">
+      <!-- bootstrap -->
+
+      <!-- main custom css -->
+      <link rel="stylesheet" href="./css/style.css">
+      <!-- main custom css -->
+</head>
+<body> 
+      <!-- heading bar -->
+      <header id="heading_bar">
+            <div class="container">
+                  <div class="info">
+                        <!-- contacts -->
+                        <a href="#">
+                              <i class="fa-regular fa-envelope"></i>
+                              mhhasanul@gmail.com
+                        </a>
+                        <a href="#">
+                              <i class="fa-solid fa-phone-volume"></i>
+                              (12345)67890
+                        </a>
+                        <!-- contacts -->
+                  </div>
+                  <div class="details">
+                        <!-- dropdown -->
+                        <div class="dropdown">
+                              <!-- language -->
+                              <div class="btn-group">
+                                    <button class="btn" type="button" >
+                                      English
+                                    </button>
+                                    <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                                          <i class="fa-solid fa-chevron-down"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                      <li>English</li>
+                                      <li>Bangla</li>
+                                      <li>Japanese</li>
+                                      <li>Chinese</li>
+                                      <li>Italian</li>
+                                    </ul>
+                                  </div>
+                                  <!-- language -->
+                                  <!-- Money -->
+                                  <div class="btn-group">
+                                    <button class="btn" type="button">
+                                      USD
+                                    </button>
+                                    <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                                          <i class="fa-solid fa-chevron-down"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                      <li>USD</li>
+                                      <li>TK</li>
+                                      <li>Yen</li>
+                                      <li>Qian</li>
+                                      <li>Soldi</li>
+                                    </ul>
+                              </div>
+                              <!-- Money -->
+                        </div>
+                        <!-- dropdown -->
+                        <a href="#">
+                              Login
+                              <i class="fa-regular fa-user"></i>
+                        </a>
+                        <a href="#">
+                              Wishlist
+                              <i class="fa-regular fa-heart"></i>
+                        </a>
+                        <a href="#">
+                              <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                  </div>
+            </div>
+      </header>
+      <!-- heading bar -->
+
+      <!-- navbar --> 
+      <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid container">
+              <a class="navbar-brand" href="#">
+                  <img src="./images/logo/Hekto.png" alt="Hekto.png">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="index.html" role="button">
+                      Home
+                      <i class="fa-solid fa-chevron-down active" id="btn"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Pages
+                      <i class="fa-solid fa-chevron-down" id="btn"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="pages/shop-grid.html">Shop Grid Default</a></li>
+                      <li><a class="dropdown-item" href="pages/shop-list.html">Shop List</a></li>
+                      <li><a class="dropdown-item" href="pages/shop-leftSide-bar.html">Shop Left Sidebar</a></li>
+                      <li><a class="dropdown-item" href="pages/product-details.html">Product Details</a></li>
+                      
+                      <li class="cart"><a class="dropdown-item" href="pages/shopping-cart.html">Shopping cart</a>
+                        <ul class="dropdown-menu cart_info">
+                          <li>
+                            <a class="dropdown-item" href="pages/cart-information.html">Registration/Log In</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li><a class="dropdown-item" href="pages/order-complete.html">Order Completed</a></li>
+                      <li><a class="dropdown-item" href="pages/log-in.html">My Account</a></li>
+                      <li><a class="dropdown-item" href="pages/blog.html">Blog Page</a></li>
+                      <li><a class="dropdown-item" href="pages/single-blog.html">Single Blog</a></li>
+                      <li><a class="dropdown-item" href="pages/about-us.html">About Us</a></li>
+                      <li><a class="dropdown-item" href="pages/contact-us.html">Contact Us</a></li>
+                      <li><a class="dropdown-item" href="pages/not-found.html">404 Not Found</a></li>
+                      <li><a class="dropdown-item" href="pages/faq.html">FAQ</a></li>
+                      
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="pages/product-details.html" role="button">
+                      Products
+                      <i class="fa-solid fa-chevron-down" id="btn"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Blog
+                      <i class="fa-solid fa-chevron-down" id="btn"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="pages/blog.html">Blog Page</a></li>
+                      <li><a class="dropdown-item" href="pages/single-blog.html">Single Blog</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Shop
+                      <i class="fa-solid fa-chevron-down" id="btn"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="pages/shop-grid.html">Shop Grid Default</a></li>
+                      <li><a class="dropdown-item" href="pages/shop-list.html">Shop List</a></li>
+                      <li><a class="dropdown-item" href="pages/shop-leftSide-bar.html">Shop Left Sidebar</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contact
+                      <i class="fa-solid fa-chevron-down" id="btn"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="pages/about-us.html">About Us</a></li>
+                      <li><a class="dropdown-item" href="pages/contact-us.html">Contact Us</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+                  <button class="btn" type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+      </nav>
+      <!-- navbar -->
+       
+      <!-- banner -->
+      <section id="banner_part">
+            <div class="container">
+                  <img class="lamp" src="./images/banner-image/hanging-lamp.png" alt="/hanging-lamp.png">
+                  <img class="circle" src="./images/banner-image/Ellipse 62.png" alt="Ellipse 62.png">
+                  <div class="row">
+                        <div class="col-lg-7 banner_left">
+                              <div class="text">
+                                    <h3>Best Furniture For Your Castle....</h3>
+                                    <h1>New Furniture Collection Trends in 2020</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.</p>
+                                    <div class="button">
+                                          <a href="#">Shop Now</a>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-lg-5">
+                              <img src="./images/banner-image/banner-part-1-chair.png" alt="banner-part-1-chair.png">
+                        </div>
+                  </div>
+            </div>
+      </section>
+      <!-- banner -->
+      <!-- featured product part -->
+      <section id="featured_part">
+        <h2 class="heading">Featured Products</h2>
+        <div class="container">
+          <!-- card slider -->
+          <div class="row card-group main_slider">
+            <!-- card -->
+            <div class="col-lg-3 card">
+              <!-- icon -->
+              <div class="icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+              <!-- icon -->
+              <!-- product image -->
+              <div class="image">
+                <img src="./images/featured-product/featured-1.png" class="card-img-top" alt="featured-1.png">
+              </div>
+              <!-- product image -->
+              <!-- card information -->
+              <div class="card-body">
+                <h5 class="card-title">Cantilever chair</h5>
+                <img class="color_dot" src="./images/featured-product/color-category.png" alt="color-category.png">
+                <p class="card_code">Code - Y523201</p>
+                <p class="card_cost">$42.00</p>
+              </div>
+              <!-- card information -->
+            </div>
+            <!-- card -->
+            <!-- card -->
+            <div class="col-lg-3 card">
+              <!-- icon -->
+              <div class="icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+              <!-- icon -->
+              <!-- product image -->
+              <div class="image">
+                <img src="./images/featured-product/featured-2.png" class="card-img-top" alt="featured-2.png">
+              </div>
+              <!-- product image -->
+              <!-- card information -->
+              <div class="card-body">
+                <h5 class="card-title">Cantilever chair</h5>
+                <img class="color_dot" src="./images/featured-product/color-category.png" alt="color-category.png">
+                <p class="card_code">Code - Y523201</p>
+                <p class="card_cost">$42.00</p>
+              </div>
+              <!-- card information -->
+            </div>
+            <!-- card -->
+            <!-- card -->
+            <div class="col-lg-3 card">
+              <!-- icon -->
+              <div class="icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+              <!-- icon -->
+              <!-- product image -->
+              <div class="image">
+                <img src="./images/featured-product/featured-3.png" class="card-img-top" alt="featured-3.png">
+              </div>
+              <!-- product image -->
+              <!-- card information -->
+              <div class="card-body">
+                <h5 class="card-title">Cantilever chair</h5>
+                <img class="color_dot" src="./images/featured-product/color-category.png" alt="color-category.png">
+                <p class="card_code">Code - Y523201</p>
+                <p class="card_cost">$42.00</p>
+              </div>
+              <!-- card information -->
+            </div>
+            <!-- card -->
+            <!-- card -->
+            <div class="col-lg-3 card">
+              <!-- icon -->
+              <div class="icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+              <!-- icon -->
+              <!-- product image -->
+              <div class="image">
+                <img src="./images/featured-product/featured-4.png" class="card-img-top" alt="featured-4.png">
+              </div>
+              <!-- product image -->
+              <!-- card information -->
+              <div class="card-body">
+                <h5 class="card-title">Cantilever chair</h5>
+                <img class="color_dot" src="./images/featured-product/color-category.png" alt="color-category.png">
+                <p class="card_code">Code - Y523201</p>
+                <p class="card_cost">$42.00</p>
+              </div>
+              <!-- card information -->
+            </div>
+            <!-- card -->
+            <!-- card -->
+            <div class="col-lg-3 card">
+              <!-- icon -->
+              <div class="icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+              <!-- icon -->
+              <!-- product image -->
+              <div class="image">
+                <img src="./images/featured-product/featured-3.png" class="card-img-top" alt="featured-3.png">
+              </div>
+              <!-- product image -->
+              <!-- card information -->
+              <div class="card-body">
+                <h5 class="card-title">Cantilever chair</h5>
+                <img class="color_dot" src="./images/featured-product/color-category.png" alt="color-category.png">
+                <p class="card_code">Code - Y523201</p>
+                <p class="card_cost">$42.00</p>
+              </div>
+              <!-- card information -->
+            </div>
+            <!-- card -->
+            <!-- card -->
+            <div class="col-lg-3 card">
+              <!-- icon -->
+              <div class="icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+              <!-- icon -->
+              <!-- product image -->
+              <div class="image">
+                <img src="./images/featured-product/featured-4.png" class="card-img-top" alt="featured-4.png">
+              </div>
+              <!-- product image -->
+              <!-- card information -->
+              <div class="card-body">
+                <h5 class="card-title">Cantilever chair</h5>
+                <img class="color_dot" src="./images/featured-product/color-category.png" alt="color-category.png">
+                <p class="card_code">Code - Y523201</p>
+                <p class="card_cost">$42.00</p>
+              </div>
+              <!-- card information -->
+            </div>
+            <!-- card -->
+             <!-- card -->
+             <div class="col-lg-3 card">
+              <!-- icon -->
+              <div class="icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+              <!-- icon -->
+              <!-- product image -->
+              <div class="image">
+                <img src="./images/featured-product/featured-1.png" class="card-img-top" alt="featured-1.png">
+              </div>
+              <!-- product image -->
+              <!-- card information -->
+              <div class="card-body">
+                <h5 class="card-title">Cantilever chair</h5>
+                <img class="color_dot" src="./images/featured-product/color-category.png" alt="color-category.png">
+                <p class="card_code">Code - Y523201</p>
+                <p class="card_cost">$42.00</p>
+              </div>
+              <!-- card information -->
+            </div>
+            <!-- card -->
+            <!-- card -->
+            <div class="col-lg-3 card">
+              <!-- icon -->
+              <div class="icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+              <!-- icon -->
+              <!-- product image -->
+              <div class="image">
+                <img src="./images/featured-product/featured-2.png" class="card-img-top" alt="featured-2.png">
+              </div>
+              <!-- product image -->
+              <!-- card information -->
+              <div class="card-body">
+                <h5 class="card-title">Cantilever chair</h5>
+                <img class="color_dot" src="./images/featured-product/color-category.png" alt="color-category.png">
+                <p class="card_code">Code - Y523201</p>
+                <p class="card_cost">$42.00</p>
+              </div>
+              <!-- card information -->
+            </div>
+            <!-- card -->
+            <!-- card -->
+            <div class="col-lg-3 card">
+              <!-- icon -->
+              <div class="icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+              <!-- icon -->
+              <!-- product image -->
+              <div class="image">
+                <img src="./images/featured-product/featured-3.png" class="card-img-top" alt="featured-3.png">
+              </div>
+              <!-- product image -->
+              <!-- card information -->
+              <div class="card-body">
+                <h5 class="card-title">Cantilever chair</h5>
+                <img class="color_dot" src="./images/featured-product/color-category.png" alt="color-category.png">
+                <p class="card_code">Code - Y523201</p>
+                <p class="card_cost">$42.00</p>
+              </div>
+              <!-- card information -->
+            </div>
+            <!-- card -->
+             <!-- card -->
+             <div class="col-lg-3 card">
+              <!-- icon -->
+              <div class="icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+              <!-- icon -->
+              <!-- product image -->
+              <div class="image">
+                <img src="./images/featured-product/featured-1.png" class="card-img-top" alt="featured-1.png">
+              </div>
+              <!-- product image -->
+              <!-- card information -->
+              <div class="card-body">
+                <h5 class="card-title">Cantilever chair</h5>
+                <img class="color_dot" src="./images/featured-product/color-category.png" alt="color-category.png">
+                <p class="card_code">Code - Y523201</p>
+                <p class="card_cost">$42.00</p>
+              </div>
+              <!-- card information -->
+            </div>
+            <!-- card -->
+            <!-- card -->
+            <div class="col-lg-3 card">
+              <!-- icon -->
+              <div class="icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+              <!-- icon -->
+              <!-- product image -->
+              <div class="image">
+                <img src="./images/featured-product/featured-2.png" class="card-img-top" alt="featured-2.png">
+              </div>
+              <!-- product image -->
+              <!-- card information -->
+              <div class="card-body">
+                <h5 class="card-title">Cantilever chair</h5>
+                <img class="color_dot" src="./images/featured-product/color-category.png" alt="color-category.png">
+                <p class="card_code">Code - Y523201</p>
+                <p class="card_cost">$42.00</p>
+              </div>
+              <!-- card information -->
+            </div>
+            <!-- card -->
+            <!-- card -->
+            <div class="col-lg-3 card">
+              <!-- icon -->
+              <div class="icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+              <!-- icon -->
+              <!-- product image -->
+              <div class="image">
+                <img src="./images/featured-product/featured-3.png" class="card-img-top" alt="featured-3.png">
+              </div>
+              <!-- product image -->
+              <!-- card information -->
+              <div class="card-body">
+                <h5 class="card-title">Cantilever chair</h5>
+                <img class="color_dot" src="./images/featured-product/color-category.png" alt="color-category.png">
+                <p class="card_code">Code - Y523201</p>
+                <p class="card_cost">$42.00</p>
+              </div>
+              <!-- card information -->
+            </div>
+            <!-- card -->
+            <!-- card -->
+            <div class="col-lg-3 card">
+              <!-- icon -->
+              <div class="icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+              <!-- icon -->
+              <!-- product image -->
+              <div class="image">
+                <img src="./images/featured-product/featured-2.png" class="card-img-top" alt="featured-2.png">
+              </div>
+              <!-- product image -->
+              <!-- card information -->
+              <div class="card-body">
+                <h5 class="card-title">Cantilever chair</h5>
+                <img class="color_dot" src="./images/featured-product/color-category.png" alt="color-category.png">
+                <p class="card_code">Code - Y523201</p>
+                <p class="card_cost">$42.00</p>
+              </div>
+              <!-- card information -->
+            </div>
+            <!-- card -->
+             <!-- card -->
+             <div class="col-lg-3 card">
+              <!-- icon -->
+              <div class="icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+              <!-- icon -->
+              <!-- product image -->
+              <div class="image">
+                <img src="./images/featured-product/featured-1.png" class="card-img-top" alt="featured-1.png">
+              </div>
+              <!-- product image -->
+              <!-- card information -->
+              <div class="card-body">
+                <h5 class="card-title">Cantilever chair</h5>
+                <img class="color_dot" src="./images/featured-product/color-category.png" alt="color-category.png">
+                <p class="card_code">Code - Y523201</p>
+                <p class="card_cost">$42.00</p>
+              </div>
+              <!-- card information -->
+            </div>
+            <!-- card -->
+            <!-- card -->
+            <div class="col-lg-3 card">
+              <!-- icon -->
+              <div class="icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+              <!-- icon -->
+              <!-- product image -->
+              <div class="image">
+                <img src="./images/featured-product/featured-2.png" class="card-img-top" alt="featured-2.png">
+              </div>
+              <!-- product image -->
+              <!-- card information -->
+              <div class="card-body">
+                <h5 class="card-title">Cantilever chair</h5>
+                <img class="color_dot" src="./images/featured-product/color-category.png" alt="color-category.png">
+                <p class="card_code">Code - Y523201</p>
+                <p class="card_cost">$42.00</p>
+              </div>
+              <!-- card information -->
+            </div>
+            <!-- card -->
+            <!-- card -->
+            <div class="col-lg-3 card">
+              <!-- icon -->
+              <div class="icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+              <!-- icon -->
+              <!-- product image -->
+              <div class="image">
+                <img src="./images/featured-product/featured-3.png" class="card-img-top" alt="featured-3.png">
+              </div>
+              <!-- product image -->
+              <!-- card information -->
+              <div class="card-body">
+                <h5 class="card-title">Cantilever chair</h5>
+                <img class="color_dot" src="./images/featured-product/color-category.png" alt="color-category.png">
+                <p class="card_code">Code - Y523201</p>
+                <p class="card_cost">$42.00</p>
+              </div>
+              <!-- card information -->
+            </div>
+            <!-- card -->
+          </div>
+          <!-- card slider -->
+        </div>
+      </section>
+      <!-- featured product part -->
+      <!-- leatest product  -->
+      <section id="leatest_product_part">
+        <h2 class="heading">Leatest Products</h2>
+        <div class="container">
+          <!-- filter button -->
+        <div class="button">
+          <button type="button" data-filter=".category-a">New Arrival</button>
+          <button type="button" data-filter=".category-b">Best Seller</button>
+          <button type="button" data-filter=".category-c">Featured</button>
+          <button type="button" data-filter=".category-d">Special Offer</button>
+        </div>
+        <!-- filter button -->
+        <div class="containerEl">
+          <!-- elements -->
+          <div class="mix category-a" data-order="1" data-ref="category-a">
+            <!-- category a -->
+            <div class="row">
+              <!-- left -->
+              <div class="col-lg-4">
+                <div class="card">
+                <!-- icon -->
+                <div class="icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-magnifying-glass-plus"></i>
+                </div>
+                <img class="sale" src="./images/leatest-product/salee.png" alt="salee.png">
+                <!-- icon -->
+                  <div class="image">
+                    <img src="./images/leatest-product/leatest-1.png" alt="leatest-1.png">
+                  </div>
+                  <div class="text">
+                    <a href="#">Comfort Handy Craft</a>
+                   <div class="price">
+                    <p>$42.00</p>
+                    <p><span>$65.00</span></p>
+                   </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <!-- icon -->
+                  <div class="icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                  </div>
+                  <img class="sale" src="./images/leatest-product/salee.png" alt="salee.png">
+                  <!-- icon -->
+                  <div class="image">
+                    <img src="./images/leatest-product/leatest-4.png" alt="leatest-4.png">
+                  </div>
+                  <div class="text">
+                    <a href="#">Comfort Handy Craft</a>
+                   <div class="price">
+                    <p>$42.00</p>
+                    <p><span>$65.00</span></p>
+                   </div>
+                  </div>
+                </div>
+              </div>
+              <!-- left -->
+              <!-- middle -->
+              <div class="col-lg-4">
+                <div class="card">
+                  <!-- icon -->
+                  <div class="icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                  </div>
+                  <img class="sale" src="./images/leatest-product/salee.png" alt="salee.png">
+                  <!-- icon -->
+                  <div class="image">
+                    <img src="./images/leatest-product/leatest-2.png" alt="leatest-2.png">
+                  </div>
+                  <div class="text">
+                    <a href="#">Comfort Handy Craft</a>
+                   <div class="price">
+                    <p>$42.00</p>
+                    <p><span>$65.00</span></p>
+                   </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <!-- icon -->
+                  <div class="icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                  </div>
+                  <img class="sale" src="./images/leatest-product/salee.png" alt="salee.png">
+                  <!-- icon -->
+                  <div class="image">
+                    <img src="./images/leatest-product/leatest-5.png" alt="leatest-5.png">
+                  </div>
+                  <div class="text">
+                    <a href="#">Comfort Handy Craft</a>
+                   <div class="price">
+                    <p>$42.00</p>
+                    <p><span>$65.00</span></p>
+                   </div>
+                  </div>
+                </div>
+              </div>
+              <!-- middle -->
+              <!-- right -->
+              <div class="col-lg-4">
+                <div class="card">
+                  <!-- icon -->
+                  <div class="icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                  </div>
+                  <img class="sale" src="./images/leatest-product/salee.png" alt="salee.png">
+                  <!-- icon -->
+                  <div class="image">
+                    <img src="./images/leatest-product/leatest-3.png" alt="leatest-3.png">
+                  </div>
+                  <div class="text">
+                    <a href="#">Comfort Handy Craft</a>
+                   <div class="price">
+                    <p>$42.00</p>
+                    <p><span>$65.00</span></p>
+                   </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <!-- icon -->
+                  <div class="icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                  </div>
+                  <img class="sale" src="./images/leatest-product/salee.png" alt="salee.png">
+                  <!-- icon -->
+                  <div class="image">
+                    <img src="./images/leatest-product/leatest-6.png" alt="leatest-6.png">
+                  </div>
+                  <div class="text">
+                    <a href="#">Comfort Handy Craft</a>
+                   <div class="price">
+                    <p>$42.00</p>
+                    <p><span>$65.00</span></p>
+                   </div>
+                  </div>
+                </div>
+              </div>
+              <!-- right -->
+            </div>
+            <!-- category a -->
+          </div>
+          <div class="mix category-b" data-order="2" data-ref="category-b">
+            <!-- category a -->
+            <div class="row">
+              <!-- middle -->
+              <div class="col-lg-4">
+                <div class="card">
+                  <!-- icon -->
+                  <div class="icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                  </div>
+                  <img class="sale" src="./images/leatest-product/salee.png" alt="salee.png">
+                  <!-- icon -->
+                  <div class="image">
+                    <img src="./images/leatest-product/leatest-2.png" alt="leatest-2.png">
+                  </div>
+                  <div class="text">
+                    <a href="#">Comfort Handy Craft</a>
+                   <div class="price">
+                    <p>$42.00</p>
+                    <p><span>$65.00</span></p>
+                   </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <!-- icon -->
+                  <div class="icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                  </div>
+                  <img class="sale" src="./images/leatest-product/salee.png" alt="salee.png">
+                  <!-- icon -->
+                  <div class="image">
+                    <img src="./images/leatest-product/leatest-5.png" alt="leatest-5.png">
+                  </div>
+                  <div class="text">
+                    <a href="#">Comfort Handy Craft</a>
+                   <div class="price">
+                    <p>$42.00</p>
+                    <p><span>$65.00</span></p>
+                   </div>
+                  </div>
+                </div>
+              </div>
+              <!-- middle -->
+              <!-- left -->
+              <div class="col-lg-4">
+                <div class="card">
+                <!-- icon -->
+                <div class="icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-magnifying-glass-plus"></i>
+                </div>
+                <img class="sale" src="./images/leatest-product/salee.png" alt="salee.png">
+                <!-- icon -->
+                  <div class="image">
+                    <img src="./images/leatest-product/leatest-1.png" alt="leatest-1.png">
+                  </div>
+                  <div class="text">
+                    <a href="#">Comfort Handy Craft</a>
+                   <div class="price">
+                    <p>$42.00</p>
+                    <p><span>$65.00</span></p>
+                   </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <!-- icon -->
+                  <div class="icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                  </div>
+                  <img class="sale" src="./images/leatest-product/salee.png" alt="salee.png">
+                  <!-- icon -->
+                  <div class="image">
+                    <img src="./images/leatest-product/leatest-4.png" alt="leatest-4.png">
+                  </div>
+                  <div class="text">
+                    <a href="#">Comfort Handy Craft</a>
+                   <div class="price">
+                    <p>$42.00</p>
+                    <p><span>$65.00</span></p>
+                   </div>
+                  </div>
+                </div>
+              </div>
+              <!-- left -->
+              <!-- right -->
+              <div class="col-lg-4">
+                <div class="card">
+                  <!-- icon -->
+                  <div class="icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                  </div>
+                  <img class="sale" src="./images/leatest-product/salee.png" alt="salee.png">
+                  <!-- icon -->
+                  <div class="image">
+                    <img src="./images/leatest-product/leatest-3.png" alt="leatest-3.png">
+                  </div>
+                  <div class="text">
+                    <a href="#">Comfort Handy Craft</a>
+                   <div class="price">
+                    <p>$42.00</p>
+                    <p><span>$65.00</span></p>
+                   </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <!-- icon -->
+                  <div class="icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                  </div>
+                  <img class="sale" src="./images/leatest-product/salee.png" alt="salee.png">
+                  <!-- icon -->
+                  <div class="image">
+                    <img src="./images/leatest-product/leatest-6.png" alt="leatest-6.png">
+                  </div>
+                  <div class="text">
+                    <a href="#">Comfort Handy Craft</a>
+                   <div class="price">
+                    <p>$42.00</p>
+                    <p><span>$65.00</span></p>
+                   </div>
+                  </div>
+                </div>
+              </div>
+              <!-- right -->
+            </div>
+            <!-- category a -->
+          </div>
+          <!-- elements -->
+          <!-- elements -->
+          <div class="mix category-c" data-order="3" data-ref="category-c">
+            <!-- category a -->
+            <div class="row">
+              <!-- left -->
+              <div class="col-lg-4">
+                <div class="card">
+                <!-- icon -->
+                <div class="icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-magnifying-glass-plus"></i>
+                </div>
+                <img class="sale" src="./images/leatest-product/salee.png" alt="salee.png">
+                <!-- icon -->
+                  <div class="image">
+                    <img src="./images/leatest-product/leatest-1.png" alt="leatest-1.png">
+                  </div>
+                  <div class="text">
+                    <a href="#">Comfort Handy Craft</a>
+                   <div class="price">
+                    <p>$42.00</p>
+                    <p><span>$65.00</span></p>
+                   </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <!-- icon -->
+                  <div class="icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                  </div>
+                  <img class="sale" src="./images/leatest-product/salee.png" alt="salee.png">
+                  <!-- icon -->
+                  <div class="image">
+                    <img src="./images/leatest-product/leatest-4.png" alt="leatest-4.png">
+                  </div>
+                  <div class="text">
+                    <a href="#">Comfort Handy Craft</a>
+                   <div class="price">
+                    <p>$42.00</p>
+                    <p><span>$65.00</span></p>
+                   </div>
+                  </div>
+                </div>
+              </div>
+              <!-- left -->
+              <!-- middle -->
+              <div class="col-lg-4">
+                <div class="card">
+                  <!-- icon -->
+                  <div class="icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                  </div>
+                  <img class="sale" src="./images/leatest-product/salee.png" alt="salee.png">
+                  <!-- icon -->
+                  <div class="image">
+                    <img src="./images/leatest-product/leatest-2.png" alt="leatest-2.png">
+                  </div>
+                  <div class="text">
+                    <a href="#">Comfort Handy Craft</a>
+                   <div class="price">
+                    <p>$42.00</p>
+                    <p><span>$65.00</span></p>
+                   </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <!-- icon -->
+                  <div class="icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                  </div>
+                  <img class="sale" src="./images/leatest-product/salee.png" alt="salee.png">
+                  <!-- icon -->
+                  <div class="image">
+                    <img src="./images/leatest-product/leatest-5.png" alt="leatest-5.png">
+                  </div>
+                  <div class="text">
+                    <a href="#">Comfort Handy Craft</a>
+                   <div class="price">
+                    <p>$42.00</p>
+                    <p><span>$65.00</span></p>
+                   </div>
+                  </div>
+                </div>
+              </div>
+              <!-- middle -->
+              <!-- right -->
+              <div class="col-lg-4">
+                <div class="card">
+                  <!-- icon -->
+                  <div class="icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                  </div>
+                  <img class="sale" src="./images/leatest-product/salee.png" alt="salee.png">
+                  <!-- icon -->
+                  <div class="image">
+                    <img src="./images/leatest-product/leatest-3.png" alt="leatest-3.png">
+                  </div>
+                  <div class="text">
+                    <a href="#">Comfort Handy Craft</a>
+                   <div class="price">
+                    <p>$42.00</p>
+                    <p><span>$65.00</span></p>
+                   </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <!-- icon -->
+                  <div class="icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                  </div>
+                  <img class="sale" src="./images/leatest-product/salee.png" alt="salee.png">
+                  <!-- icon -->
+                  <div class="image">
+                    <img src="./images/leatest-product/leatest-6.png" alt="leatest-6.png">
+                  </div>
+                  <div class="text">
+                    <a href="#">Comfort Handy Craft</a>
+                   <div class="price">
+                    <p>$42.00</p>
+                    <p><span>$65.00</span></p>
+                   </div>
+                  </div>
+                </div>
+              </div>
+              <!-- right -->
+            </div>
+            <!-- category a -->
+          </div>
+          <div class="mix category-d" data-order="4" data-ref="category-d">
+            <!-- category a -->
+            <div class="row">
+              <!-- middle -->
+              <div class="col-lg-4">
+                <div class="card">
+                  <!-- icon -->
+                  <div class="icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                  </div>
+                  <img class="sale" src="./images/leatest-product/salee.png" alt="salee.png">
+                  <!-- icon -->
+                  <div class="image">
+                    <img src="./images/leatest-product/leatest-2.png" alt="leatest-2.png">
+                  </div>
+                  <div class="text">
+                    <a href="#">Comfort Handy Craft</a>
+                   <div class="price">
+                    <p>$42.00</p>
+                    <p><span>$65.00</span></p>
+                   </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <!-- icon -->
+                  <div class="icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                  </div>
+                  <img class="sale" src="./images/leatest-product/salee.png" alt="salee.png">
+                  <!-- icon -->
+                  <div class="image">
+                    <img src="./images/leatest-product/leatest-5.png" alt="leatest-5.png">
+                  </div>
+                  <div class="text">
+                    <a href="#">Comfort Handy Craft</a>
+                   <div class="price">
+                    <p>$42.00</p>
+                    <p><span>$65.00</span></p>
+                   </div>
+                  </div>
+                </div>
+              </div>
+              <!-- middle -->
+              <!-- left -->
+              <div class="col-lg-4">
+                <div class="card">
+                <!-- icon -->
+                <div class="icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-magnifying-glass-plus"></i>
+                </div>
+                <img class="sale" src="./images/leatest-product/salee.png" alt="salee.png">
+                <!-- icon -->
+                  <div class="image">
+                    <img src="./images/leatest-product/leatest-1.png" alt="leatest-1.png">
+                  </div>
+                  <div class="text">
+                    <a href="#">Comfort Handy Craft</a>
+                   <div class="price">
+                    <p>$42.00</p>
+                    <p><span>$65.00</span></p>
+                   </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <!-- icon -->
+                  <div class="icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                  </div>
+                  <img class="sale" src="./images/leatest-product/salee.png" alt="salee.png">
+                  <!-- icon -->
+                  <div class="image">
+                    <img src="./images/leatest-product/leatest-4.png" alt="leatest-4.png">
+                  </div>
+                  <div class="text">
+                    <a href="#">Comfort Handy Craft</a>
+                   <div class="price">
+                    <p>$42.00</p>
+                    <p><span>$65.00</span></p>
+                   </div>
+                  </div>
+                </div>
+              </div>
+              <!-- left -->
+              <!-- right -->
+              <div class="col-lg-4">
+                <div class="card">
+                  <!-- icon -->
+                  <div class="icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                  </div>
+                  <img class="sale" src="./images/leatest-product/salee.png" alt="salee.png">
+                  <!-- icon -->
+                  <div class="image">
+                    <img src="./images/leatest-product/leatest-3.png" alt="leatest-3.png">
+                  </div>
+                  <div class="text">
+                    <a href="#">Comfort Handy Craft</a>
+                   <div class="price">
+                    <p>$42.00</p>
+                    <p><span>$65.00</span></p>
+                   </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <!-- icon -->
+                  <div class="icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                  </div>
+                  <img class="sale" src="./images/leatest-product/salee.png" alt="salee.png">
+                  <!-- icon -->
+                  <div class="image">
+                    <img src="./images/leatest-product/leatest-6.png" alt="leatest-6.png">
+                  </div>
+                  <div class="text">
+                    <a href="#">Comfort Handy Craft</a>
+                   <div class="price">
+                    <p>$42.00</p>
+                    <p><span>$65.00</span></p>
+                   </div>
+                  </div>
+                </div>
+              </div>
+              <!-- right -->
+            </div>
+            <!-- category a -->
+          </div>
+          <!-- elements -->
+        </div>
+      </div>
+      </section>
+      <!-- leatest product  -->
+      <!-- shopex offer -->
+      <section id="shopex_part">
+        <h2 class="heading">What Shopex Offer!</h2>
+        <div class="container">
+          <div class="row">
+            <!-- card -->
+            <div class="col-lg-3">
+              <div class="card_body">
+                <!-- card image -->
+                <div class="image">
+                  <img src="./images/shopex-offer/free-delivery-shopex1.png" alt="free-delivery-shopex1.png">
+                </div>
+                <!-- card image -->
+                <!-- card text -->
+                <div class="text">
+                  <h3>24/7 Support</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida.</p>
+                </div>
+                <!-- card text -->
+              </div>
+            </div>
+            <!-- card -->
+            <!-- card -->
+            <div class="col-lg-3">
+              <div class="card_body">
+                <!-- card image -->
+                <div class="image">
+                  <img src="./images/shopex-offer/cashback-shopex2.png" alt="cashback-shopex2.png">
+                </div>
+                <!-- card image -->
+                <!-- card text -->
+                <div class="text">
+                  <h3>24/7 Support</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida.</p>
+                </div>
+                <!-- card text -->
+              </div>
+            </div>
+            <!-- card -->
+            <!-- card -->
+            <div class="col-lg-3">
+              <div class="card_body">
+                <!-- card image -->
+                <div class="image">
+                  <img src="./images/shopex-offer/premium-quality-shopex3.png" alt="premium-quality-shopex3.png">
+                </div>
+                <!-- card image -->
+                <!-- card text -->
+                <div class="text">
+                  <h3>24/7 Support</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida.</p>
+                </div>
+                <!-- card text -->
+              </div>
+            </div>
+            <!-- card -->
+            <!-- card -->
+            <div class="col-lg-3">
+              <div class="card_body">
+                <!-- card image -->
+                <div class="image">
+                  <img src="./images/shopex-offer/24-hours-support-shopex-4.png" alt="24-hours-support-shopex-4.png">
+                </div>
+                <!-- card image -->
+                <!-- card text -->
+                <div class="text">
+                  <h3>24/7 Support</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida.</p>
+                </div>
+                <!-- card text -->
+              </div>
+            </div>
+            <!-- card -->
+          </div>
+        </div>
+      </section>
+      <!-- shopex offer -->
+      <!-- unique featured  -->
+      <section id="unique_featured_part">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="image">
+                <img src="./images/unique-features/sofa.png" alt="sofa.png">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <h2 class="heading">Unique Features Of leatest & Trending Poducts</h2>
+              <p><img src="./images/unique-features/dot-1.png" alt="dot-1.png"> All frames constructed with hardwood solids and laminates</p>
+              <p><img src="./images/unique-features/dot-2.png" alt="dot-2.png"> Reinforced with double wood dowels, glue, screw - nails corner blocks and machine nails</p>
+              <p><img src="./images/unique-features/dot-3.png" alt="dot-3.png"> Arms, backs and seats are structurally reinforced</p>
+              <div class="info">
+                <div class="button">
+                  <a href="#">Add To Cart</a>
+                </div>
+                <div class="price">
+                  <p>B&B Italian Sofa</p>
+                  <span>$32.00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- unique featured  -->
+      <!-- trending products -->
+      <section id="trending_part">
+        <h2 class="heading">Trending Products</h2>
+        <div class="container">
+          <!-- product card -->
+          <div class="row">
+            <!-- card -->
+            <div class="col-lg-3">
+              <div class="card_body">
+                <!-- card image -->
+                <div class="image">
+                  <img src="./images/trending-product/trending-card-1.png" alt="trending-card-1.png">
+                </div>
+                <!-- card image -->
+                <!-- card text -->
+                <div class="text">
+                  <h3>Cantilever chair</h3>
+                  <div class="price">
+                    <p>$26.00</p>
+                    <span>$42.00</span>
+                  </div>
+                </div>
+                <!-- card text -->
+              </div>
+            </div>
+            <!-- card -->
+            <!-- card -->
+            <div class="col-lg-3">
+              <div class="card_body">
+                <!-- card image -->
+                <div class="image">
+                  <img src="./images/trending-product/trending-card-2.png" alt="trending-card-2.png">
+                </div>
+                <!-- card image -->
+                <!-- card text -->
+                <div class="text">
+                  <h3>Cantilever chair</h3>
+                  <div class="price">
+                    <p>$26.00</p>
+                    <span>$42.00</span>
+                  </div>
+                </div>
+                <!-- card text -->
+              </div>
+            </div>
+            <!-- card -->
+            <!-- card -->
+            <div class="col-lg-3">
+              <div class="card_body">
+                <!-- card image -->
+                <div class="image">
+                  <img src="./images/trending-product/trending-card-3.png" alt="trending-card-3.png">
+                </div>
+                <!-- card image -->
+                <!-- card text -->
+                <div class="text">
+                  <h3>Cantilever chair</h3>
+                  <div class="price">
+                    <p>$26.00</p>
+                    <span>$42.00</span>
+                  </div>
+                </div>
+                <!-- card text -->
+              </div>
+            </div>
+            <!-- card -->
+            <!-- card -->
+            <div class="col-lg-3">
+              <div class="card_body">
+                <!-- card image -->
+                <div class="image">
+                  <img src="./images/trending-product/trending-card-4.png" alt="trending-card-4.png">
+                </div>
+                <!-- card image -->
+                <!-- card text -->
+                <div class="text">
+                  <h3>Cantilever chair</h3>
+                  <div class="price">
+                    <p>$26.00</p>
+                    <span>$42.00</span>
+                  </div>
+                </div>
+                <!-- card text -->
+              </div>
+            </div>
+            <!-- card -->
+          </div>
+          <!-- product card -->
+          <!-- product_list -->
+          <div class="discount">
+            <!-- shop -->
+            <div class="shop_now">
+              <img class="shop" src="./images/trending-product/trending-5.png" alt="trending-5.png">
+              <h2 class="disc_heading">23% off in all products</h2>
+              <a class="disc_link" href="#">Shop Now</a>
+            </div>
+            <!-- shop -->
+            <!-- view -->
+            <div class="view_collect">
+              <img class="view" src="./images/trending-product/trending-6.png" alt="trending-6.png">
+              <h2 class="disc_heading">23% off in all products</h2>
+              <a class="disc_link" href="#">View Collection</a>
+            </div>
+            <!-- view -->
+           <div class="product_list">
+             <!-- product -->
+             <div class="product">
+              <div class="image">
+                <img src="./images/trending-product/trending-7.png" alt="trending-7.png">
+              </div>
+              <div class="text">
+                <p>Executive Seat chair</p>
+                <span>$32.00</span>
+              </div>
+            </div>
+            <!-- product -->
+             <!-- product -->
+             <div class="product">
+              <div class="image">
+                <img src="./images/trending-product/trending-7.png" alt="trending-7.png">
+              </div>
+              <div class="text">
+                <p>Executive Seat chair</p>
+                <span>$32.00</span>
+              </div>
+            </div>
+            <!-- product -->
+             <!-- product -->
+             <div class="product">
+              <div class="image">
+                <img src="./images/trending-product/trending-7.png" alt="trending-7.png">
+              </div>
+              <div class="text">
+                <p>Executive Seat chair</p>
+                <span>$32.00</span>
+              </div>
+            </div>
+            <!-- product -->
+           </div>
+          </div>
+          <!-- product_list -->
+        </div>
+      </section>
+      <!-- trending products -->
+      <!-- discount items -->
+      <section id="discount_items_part">
+        <h2 class="heading">Discount Item</h2>
+        <div class="container">
+          <!-- filter button -->
+        <div class="button">
+          <button type="button" data-filter=".category-a">Wood Chair</button>
+          <button type="button" data-filter=".category-b">Plastic Chair</button>
+          <button type="button" data-filter=".category-c">Sofa Colletion</button>
+        </div>
+        <!-- filter button -->
+        <div class="contain_items">
+          <!-- elements -->
+            <!-- category a -->
+          <div class="mix category-a" data-order="1" data-ref="category-a">
+            <div class="row">
+              <div class="col-lg-6 left">
+                <h2>20% Discount Of All Products</h2>
+                <h4>Eams Sofa Compact</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu eget feugiat habitasse nec, bibendum condimentum.</p>
+                <!-- check box -->
+                <div class="box">
+                  <span><i class="fa-solid fa-check"></i>Material expose like metals</span>
+                  <span><i class="fa-solid fa-check"></i>Clear lines and geomatric figures</span>
+                </div>
+                <div class="box">
+                  <span><i class="fa-solid fa-check"></i>Material expose like metals</span>
+                  <span><i class="fa-solid fa-check"></i>Clear lines and geomatric figures</span>
+                </div>
+                <!-- check box -->
+                <div class="button">
+                  <a href="#">Shop Now</a>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="image">
+                  <img src="./images/discount-items/sofa-disc.png" alt="sofa-disc.png">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- category a -->
+          <!-- category b -->
+          <div class="mix category-b" data-order="1" data-ref="category-b">
+            <div class="row">
+              <div class="col-lg-6 left">
+                <h2>20% Discount Of All Products</h2>
+                <h4>Eams Sofa Compact</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu eget feugiat habitasse nec, bibendum condimentum.</p>
+                <!-- check box -->
+                <div class="box">
+                  <span><i class="fa-solid fa-check"></i>Material expose like metals</span>
+                  <span><i class="fa-solid fa-check"></i>Clear lines and geomatric figures</span>
+                </div>
+                <div class="box">
+                  <span><i class="fa-solid fa-check"></i>Material expose like metals</span>
+                  <span><i class="fa-solid fa-check"></i>Clear lines and geomatric figures</span>
+                </div>
+                <!-- check box -->
+                <div class="button">
+                  <a href="#">Shop Now</a>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="image">
+                  <img src="./images/discount-items/sofa-disc.png" alt="sofa-disc.png">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- category b -->
+          <!-- category c -->
+          <div class="mix category-c" data-order="1" data-ref="category-c">
+            <div class="row">
+              <div class="col-lg-6 left">
+                <h2>20% Discount Of All Products</h2>
+                <h4>Eams Sofa Compact</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu eget feugiat habitasse nec, bibendum condimentum.</p>
+                <!-- check box -->
+                <div class="box">
+                  <span><i class="fa-solid fa-check"></i>Material expose like metals</span>
+                  <span><i class="fa-solid fa-check"></i>Clear lines and geomatric figures</span>
+                </div>
+                <div class="box">
+                  <span><i class="fa-solid fa-check"></i>Material expose like metals</span>
+                  <span><i class="fa-solid fa-check"></i>Clear lines and geomatric figures</span>
+                </div>
+                <!-- check box -->
+                <div class="button">
+                  <a href="#">Shop Now</a>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="image">
+                  <img src="./images/discount-items/sofa-disc.png" alt="sofa-disc.png">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- category c -->
+          <!-- elements -->
+        </div>
+      </div>
+      </section>
+      <!-- discount items -->
+      <!-- top categories -->
+      <section id="top_category">
+        <h2 class="heading">Top Categories</h2>
+        <div class="container">
+            <!-- slider -->
+              <div class="row top_slider">
+                <!-- card -->
+                <div class="col-lg-3">
+                  <!-- card body -->
+                  <div class="card">
+                    <div class="image">
+                      <img src="./images/top-category/top-1.png" alt="top-1.png">
+                    </div>
+                    <p><span>Mini</span><span>LCW</span><span>Chair</span></p>
+                    <h6>$56.00</h6>
+                    <div class="button btn">
+                      <a href="#">View Shop</a>
+                    </div>
+                  </div>
+                  <!-- card body -->
+                </div>
+                <!-- card -->
+                <!-- card -->
+                <div class="col-lg-3">
+                  <!-- card body -->
+                  <div class="card">
+                    <div class="image">
+                      <img src="./images/top-category/top-2.png" alt="top-2.png">
+                    </div>
+                    <p><span>Mini</span><span>LCW</span><span>Chair</span></p>
+                    <h6>$56.00</h6>
+                    <div class="button btn">
+                      <a href="#">View Shop</a>
+                    </div>
+                  </div>
+                  <!-- card body -->
+                </div>
+                <!-- card -->
+                <!-- card -->
+                <div class="col-lg-3">
+                  <!-- card body -->
+                  <div class="card">
+                    <div class="image">
+                      <img src="./images/top-category/top-3.png" alt="top-3.png">
+                    </div>
+                    <p><span>Mini</span><span>LCW</span><span>Chair</span></p>
+                    <h6>$56.00</h6>
+                    <div class="button btn">
+                      <a href="#">View Shop</a>
+                    </div>
+                  </div>
+                  <!-- card body -->
+                </div>
+                <!-- card -->
+                <!-- card -->
+                <div class="col-lg-3">
+                  <!-- card body -->
+                  <div class="card">
+                    <div class="image">
+                      <img src="./images/top-category/top-1.png" alt="top-1.png">
+                    </div>
+                    <p><span>Mini</span><span>LCW</span><span>Chair</span></p>
+                    <h6>$56.00</h6>
+                    <div class="button btn">
+                      <a href="#">View Shop</a>
+                    </div>
+                  </div>
+                  <!-- card body -->
+                </div>
+                <!-- card -->
+                <!-- card -->
+                <div class="col-lg-3">
+                  <!-- card body -->
+                  <div class="card">
+                    <div class="image">
+                      <img src="./images/top-category/top-1.png" alt="top-1.png">
+                    </div>
+                    <p><span>Mini</span><span>LCW</span><span>Chair</span></p>
+                    <h6>$56.00</h6>
+                    <div class="button btn">
+                      <a href="#">View Shop</a>
+                    </div>
+                  </div>
+                  <!-- card body -->
+                </div>
+                <!-- card -->
+                <!-- card -->
+                <div class="col-lg-3">
+                  <!-- card body -->
+                  <div class="card">
+                    <div class="image">
+                      <img src="./images/top-category/top-2.png" alt="top-2.png">
+                    </div>
+                    <p><span>Mini</span><span>LCW</span><span>Chair</span></p>
+                    <h6>$56.00</h6>
+                    <div class="button btn">
+                      <a href="#">View Shop</a>
+                    </div>
+                  </div>
+                  <!-- card body -->
+                </div>
+                <!-- card -->
+                <!-- card -->
+                <div class="col-lg-3">
+                  <!-- card body -->
+                  <div class="card">
+                    <div class="image">
+                      <img src="./images/top-category/top-3.png" alt="top-3.png">
+                    </div>
+                    <p><span>Mini</span><span>LCW</span><span>Chair</span></p>
+                    <h6>$56.00</h6>
+                    <div class="button btn">
+                      <a href="#">View Shop</a>
+                    </div>
+                  </div>
+                  <!-- card body -->
+                </div>
+                <!-- card -->
+                <!-- card -->
+                <div class="col-lg-3">
+                  <!-- card body -->
+                  <div class="card">
+                    <div class="image">
+                      <img src="./images/top-category/top-1.png" alt="top-1.png">
+                    </div>
+                    <p><span>Mini</span><span>LCW</span><span>Chair</span></p>
+                    <h6>$56.00</h6>
+                    <div class="button btn">
+                      <a href="#">View Shop</a>
+                    </div>
+                  </div>
+                  <!-- card body -->
+                </div>
+                <!-- card -->
+                <!-- card -->
+                <div class="col-lg-3">
+                  <!-- card body -->
+                  <div class="card">
+                    <div class="image">
+                      <img src="./images/top-category/top-1.png" alt="top-1.png">
+                    </div>
+                    <p><span>Mini</span><span>LCW</span><span>Chair</span></p>
+                    <h6>$56.00</h6>
+                    <div class="button btn">
+                      <a href="#">View Shop</a>
+                    </div>
+                  </div>
+                  <!-- card body -->
+                </div>
+                <!-- card -->
+                <!-- card -->
+                <div class="col-lg-3">
+                  <!-- card body -->
+                  <div class="card">
+                    <div class="image">
+                      <img src="./images/top-category/top-2.png" alt="top-2.png">
+                    </div>
+                    <p><span>Mini</span><span>LCW</span><span>Chair</span></p>
+                    <h6>$56.00</h6>
+                    <div class="button btn">
+                      <a href="#">View Shop</a>
+                    </div>
+                  </div>
+                  <!-- card body -->
+                </div>
+                <!-- card -->
+                <!-- card -->
+                <div class="col-lg-3">
+                  <!-- card body -->
+                  <div class="card">
+                    <div class="image">
+                      <img src="./images/top-category/top-3.png" alt="top-3.png">
+                    </div>
+                    <p><span>Mini</span><span>LCW</span><span>Chair</span></p>
+                    <h6>$56.00</h6>
+                    <div class="button btn">
+                      <a href="#">View Shop</a>
+                    </div>
+                  </div>
+                  <!-- card body -->
+                </div>
+                <!-- card -->
+                <!-- card -->
+                <div class="col-lg-3">
+                  <!-- card body -->
+                  <div class="card">
+                    <div class="image">
+                      <img src="./images/top-category/top-1.png" alt="top-1.png">
+                    </div>
+                    <p><span>Mini</span><span>LCW</span><span>Chair</span></p>
+                    <h6>$56.00</h6>
+                    <div class="button btn">
+                      <a href="#">View Shop</a>
+                    </div>
+                  </div>
+                  <!-- card body -->
+                </div>
+                <!-- card -->
+              </div>
+            <!-- slider -->
+        </div>
+      </section>
+      <!-- top categories -->
+      <!-- subscribe -->
+      <section id="subscribe_part">
+        <div class="container">
+          <h2>Get Leatest Update By Subscribe 0ur Newslater</h2>
+          <div class="button">
+            <a href="#">Shop Now</a>
+          </div>
+        </div>
+      </section>
+      <!-- subscribe -->
+      <!-- leatest blog -->
+      <section id="leates_blog_part">
+        <!-- top brand -->
+        <div class="brand">
+          <img src="./images/leatest-blog/image 1174.png" alt="leatest-blog/image 1174.png">
+        </div>
+        <!-- top brand -->
+        <!-- top text -->
+        <h2 class="heading">Leatest Blog</h2>
+        <!-- top text -->
+        <div class="container">
+          <div class="main_card">
+            <!-- card -->
+            <div class="card">
+              <!-- card image -->
+              <div class="image">
+                <img src="./images/leatest-blog/leatest-blog-1.png" alt="leatest-blog-1.png">
+              </div>
+              <!-- card image -->
+              <div class="info">
+                <p><i class="fa-solid fa-pen-nib"></i>SaberAli</p>
+                <p><i class="fa-regular fa-calendar ye"></i>21 August,2020</p>
+              </div>
+              <h3>Top esssential Trends in 2021</h3>
+              <p class="para">More off this less hello samlande lied much over tightly circa horse taped mightly</p>
+              <a href="#">Read More</a>
+            </div>
+            <!-- card -->
+            <!-- card -->
+            <div class="card">
+              <!-- card image -->
+              <div class="image">
+                <img src="./images/leatest-blog/leatest-blog-2.png" alt="leatest-blog-2.png">
+              </div>
+              <!-- card image -->
+              <div class="info">
+                <p><i class="fa-solid fa-pen-nib"></i>Surfauxion</p>
+                <p><i class="fa-regular fa-calendar ye"></i>21 August,2020</p>
+              </div>
+              <h3>Top esssential Trends in 2021</h3>
+              <p class="para">More off this less hello samlande lied much over tightly circa horse taped mightly</p>
+              <a href="#">Read More</a>
+            </div>
+            <!-- card -->
+            <!-- card -->
+            <div class="card">
+              <!-- card image -->
+              <div class="image">
+                <img src="./images/leatest-blog/leatest-blog-3.png" alt="leatest-blog-3.png">
+              </div>
+              <!-- card image -->
+              <div class="info">
+                <p><i class="fa-solid fa-pen-nib"></i>SaberAli</p>
+                <p><i class="fa-regular fa-calendar ye"></i>21 August,2020</p>
+              </div>
+              <h3>Top esssential Trends in 2021</h3>
+              <p class="para">More off this less hello samlande lied much over tightly circa horse taped mightly</p>
+              <a href="#">Read More</a>
+            </div>
+            <!-- card -->
+          </div>
+        </div>
+      </section>
+      <!-- leatest blog -->
+      <!-- footer part -->
+      <footer id="footer_part">
+        <div class="container">
+          <!-- text -->
+          <div class="row">
+            <div class="col-lg-5 left">
+              <div class="image">
+                <img src="./images/logo/Hekto.png" alt="/Hekto.png">
+              </div>
+              <!-- form -->
+              <form class="d-flex form" role="search">
+                <input class="form-control me-2 input" type="email" placeholder="Enter Email Address" aria-label="Search">
+                <button class="button" type="submit">
+                  <a href="#">Sign Up</a>
+                </button>
+              </form>
+              <!-- form -->
+              <p>Contact Info</p>
+              <p>17 Princess Road, London, Greater London NW1 8JR, UK</p>
+            </div>
+            <div class="col-lg-7 right">
+              <!-- ingormation -->
+              <div class="category">
+                <h3>Catagories</h3>
+                <a href="#">Laptops & Computers</a>
+                <a href="#">Cameras & Photography</a>
+                <a href="#">Smart Phones & Tablets</a>
+                <a href="#">Video Games & Consoles</a>
+                <a href="#">Waterproof Headphones</a>
+              </div>
+              <!-- ingormation -->
+              <!-- ingormation -->
+              <div class="category">
+                <h3>Customer Care</h3>
+                <a href="#">My Account</a>
+                <a href="#">Discount</a>
+                <a href="#">Returns</a>
+                <a href="#">Orders History</a>
+                <a href="#">Order Tracking</a>
+              </div>
+              <!-- ingormation -->
+              <!-- ingormation -->
+              <div class="category">
+                <h3>Pages</h3>
+                <a href="#">Blog</a>
+                <a href="#">Browse the Shop</a>
+                <a href="#">Category</a>
+                <a href="#">Pre-Built Pages</a>
+                <a href="#">Visual Composer Elements</a>
+                <a href="#">WooCommerce Pages</a>
+              </div>
+              <!-- ingormation -->
+            </div>
+          </div>
+          <!-- text -->
+        </div>
+        <!-- copy write -->
+        <div class="cp">
+          <div class="container">
+            <a href="#">©Webecy - All Rights Reserved</a>
+            <div class="icon">
+              <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- copy write -->
+      </footer>
+      <!-- footer part -->
+
+
+
+      
+
+      <!-- Mixtup JS -->
+      <script src="./js/mixitup.min.js"></script>
+      <!-- Mixtup JS -->
+
+      <!-- JQuery JavaScript -->
+      <script src="./js/jquery-1.12.4.min.js"></script>
+      <!-- JQuery JavaScript -->
+
+      <!-- Slick JS -->
+      <script src="./js/slick.min.js"></script>
+      <!-- Slick JS -->
+
+      <!-- BootStrap JS -->
+      <script src="./js/bootstrap.bundle.min.js"></script>
+      <!-- BootStrap JS -->
+
+      <!-- Custom JavaScript -->
+      <script src="./js/script.js"></script>
+      <!-- Custom JavaScript -->
+</body>
+</html>
