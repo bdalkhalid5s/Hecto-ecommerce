@@ -170,7 +170,6 @@ p{
       -ms-border-radius: 0;
       -o-border-radius: 0;
       outline: 0;
-      z-index: 3333333333333;
 }
 #heading_bar .details .dropdown .dropdown-menu li{
       color: var(--mf-main-black);
@@ -184,7 +183,7 @@ p{
       -moz-transition: .4s;
       -ms-transition: .4s;
       -o-transition: .4s;
-      z-index: 2333333333333363;
+      z-index:999999999999999999999;
 }
 #heading_bar .details .dropdown .dropdown-menu li:hover{
       border-bottom: 2px solid var(--mf-main-pink);
