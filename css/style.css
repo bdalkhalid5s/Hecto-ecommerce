@@ -114,7 +114,7 @@ p{
       flex-shrink: 0;
       position: fixed;
       width: 100%;
-      z-index: 999999999999;
+      z-index: 9999999999;
 }
 #heading_bar .container{
       height: 100%;
@@ -171,6 +171,10 @@ p{
       -o-border-radius: 0;
       outline: 0;
 }
+#heading_bar .details .dropdown .dropdown-menu.heading{
+      background: #08D15F;
+      z-index: 99999999999999999999;
+}
 #heading_bar .details .dropdown .dropdown-menu li{
       color: var(--mf-main-black);
       font-family: var(--mf-font-josefin);
@@ -204,7 +208,7 @@ p{
       padding: 30px 0;
       position: fixed;
       width: 100%;
-      z-index: 99999999999999;
+      z-index: 9999999;
       background: var(--mf-white);
       transform: translateY(73%);
       -webkit-transform: translateY(73%);
