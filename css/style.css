@@ -187,6 +187,7 @@ p{
       -moz-transition: .4s;
       -ms-transition: .4s;
       -o-transition: .4s;
+      z-index:999999999999999999999;
 }
 #heading_bar .details .dropdown .dropdown-menu li:hover{
       border-bottom: 2px solid var(--mf-main-pink);
